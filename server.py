@@ -1,4 +1,5 @@
 # http://flask.pocoo.org/docs/patterns/fileuploads/
+# sample call curl   -F "userid=1"   -F "filecomment=This is an image file"   -F "file=@/Users/XXXXX/Downloads/okta-aspnetcore-mvc-example-master.zip;type=application/zip"  http://127.0.0.1:5000/release/app01
 import os
 from flask import Flask, request, redirect, url_for, send_from_directory
 from werkzeug import secure_filename
