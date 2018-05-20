@@ -1,2 +1,5 @@
 # Firstproject
-This is my first GIT project.
+First project of Python tests
+REST API
+passing zip files to API
+passing information as QS params
