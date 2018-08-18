@@ -3,7 +3,7 @@ from flask import Flask, request, send_from_directory
 # set the "static" directory as the static folder.
 # this will ensure that all the static files are under one folder
 # This is a test of the webhook
-# Test 3. 
+# Test 4. 
 app = Flask(__name__, static_url_path='/static')
  
 # serving some static html files
