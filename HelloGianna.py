@@ -1,3 +1,3 @@
-class HelloWorld:
+class HelloGianna:
   def __init__(self):
-    self.message = 'Hello world!'
+    self.message = 'Hello Bananna!'
