@@ -8,7 +8,6 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      -
       - python HelloGianna.py
   post_build:
     commands:
