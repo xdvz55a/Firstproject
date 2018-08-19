@@ -15,5 +15,5 @@ artifacts:
   files:
     - '**/*'
   name:
-    - 'test'    
+    - "test"    
     
