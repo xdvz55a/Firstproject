@@ -8,8 +8,8 @@ from flask import Flask, request
 from flask_restful import Resource, Api
 from werkzeug import secure_filename
 
-app = Flask(__name__)
-api = Api(app)
+application = Flask(__name__)
+api = Api(application)
 
 now = datetime.datetime.now()
 # print (now)
@@ -20,4 +20,4 @@ def upload_file():
     return 'Hello Gianna Bananna'
 
 if __name__ == '__main__':
-     app.run(host='0.0.0.0',port='5004')
+     application.run(host='0.0.0.0',port='5004')
