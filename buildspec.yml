@@ -10,7 +10,7 @@ phases:
       - echo Compiling the Python code...
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build is completed on `date`
 artifacts:
   files:
     - '**/*'
