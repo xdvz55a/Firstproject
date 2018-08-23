@@ -20,4 +20,4 @@ def upload_file():
     return 'Hello Gianna Bananna, how are you, on Wedensday?'
 
 if __name__ == '__main__':
-application.run(host='0.0.0.0',port='5004')
+application.run()
