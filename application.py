@@ -11,12 +11,14 @@ from werkzeug import secure_filename
 application = Flask(__name__)
 api = Api(application)
 
-now = datetime.datetime.now()
+#now = datetime.datetime.now()
 # print (now)
-today = now.strftime("%Y-%m-%d-%H-%M")
+#today = now.strftime("%Y-%m-%d-%H-%M")
 
 @application.route('/', methods=['GET'])
 def upload_file():
+    now = datetime.datetime.now()
+    today = now.strftime("%Y-%m-%d-%H-%M")
     return 'Hello Gianna Bananna, how are you, Today is' + today
 
 if __name__ == '__main__':
