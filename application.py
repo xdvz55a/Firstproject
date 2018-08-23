@@ -15,9 +15,9 @@ now = datetime.datetime.now()
 # print (now)
 today = now.strftime("%Y-%m-%d-%H-%M")
 
-@application.route('/hello/', methods=['GET'])
+@application.route('/', methods=['GET'])
 def upload_file():
-    return 'Hello Gianna Bananna, how are you, on Wedensday?'
+    return 'Hello Gianna Bananna, how are you, on Friday?'
 
 if __name__ == '__main__':
     application.run()
